@@ -173,17 +173,18 @@ blockquote {
 }
 
 .polaroid {
-	background: white;
 	border:solid 1px #d3d3d3;
 	background-color:#f8f8ff;
-	padding:10px 10px 60px;
+	padding:10px 10px;
 	margin-bottom: 10px;
 }
 .polaroid img{
 	border:solid 1px #d3d3d3;
 }
-body.gallery .polaroid {
-	padding-bottom: 10px;
+.polaroid .tag {
+	font-family: 'Just Me Again Down Here', cursive;
+	text-align: center;
+	font-size: 2.2em;
 }
 
 div.contact {
@@ -200,6 +201,17 @@ div.contact .email,
 div.contact .phone {
 	text-transform: none;
 	font-weight: bold;
+}
+.credits p {
+	text-transform: none;
+	font-weight:bold
+}
+.credits p:hover {
+	text-shadow: none;
+	color: inherit;
+}
+.credits a {
+	font-weight: normal;
 }
 
 /* ==|== non-semantic helper classes ========================================
